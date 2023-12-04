@@ -1,6 +1,6 @@
 import os
 
-with open(os.path.join("calibrationValues.txt")) as f:
+with open(os.path.join("Day One","calibrationValues.txt")) as f:
     file = [line.rstrip() for line in f]
 
 total = []
